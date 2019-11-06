@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grop"
+    android:gravity="center"
+    tools:context=".Appointment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/find"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="VET Name"
+                android:gravity="center"
+                android:id="@+id/Vetname"
+                android:layout_marginBottom="20dp"
+                android:textSize="25dp"
+
+                android:textColor="@color/darkgray"
+
+                android:background="@drawable/rectangle"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangle"
+                android:id="@+id/datepick"
+                android:hint="Select Date"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/timepick"
+                android:focusable="false"
+                android:editable="false"
+                android:paddingLeft="20dp"
+                android:hint="Select From Time"
+                android:background="@drawable/rectangle"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/timepick2"
+                android:focusable="false"
+                android:editable="false"
+                android:paddingLeft="20dp"
+                android:hint="Select To Time"
+                android:background="@drawable/rectangle"/>
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:onClick="Gomain"
+                android:layout_marginTop="70dp"
+                android:text="Confirm"
+                android:background="@drawable/rectangle"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

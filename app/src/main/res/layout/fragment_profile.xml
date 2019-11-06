@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/find"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/grop"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Your Clinic "
+                android:textStyle="bold"
+                android:background="@drawable/rectangle"
+                android:id="@+id/tx1"
+                android:gravity="center"
+                android:textSize="30dp"
+
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/darkgray"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Your Clinic Address "
+                android:gravity="center"
+
+                android:background="@drawable/rectangle"
+                android:id="@+id/tx2"
+                android:textSize="20dp"
+
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/darkgray"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

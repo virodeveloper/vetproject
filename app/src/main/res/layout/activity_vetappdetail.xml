@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vetdetail"
+    android:layout_height="match_parent"
+    tools:context=".Vetappdetail">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="APPOINTMENT DETAIL"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/darkgray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Client Name"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/darkgray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/darkgray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Time"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/darkgray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Problem Detail"
+
+            android:textSize="25dp"
+            android:textColor="@color/darkgray"/>
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:id="@+id/sp1"
+            android:visibility="visible"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/accept"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:text="Accept"
+            android:drawableLeft="@drawable/ic_beenhere_black_24dp"
+
+            android:background="@drawable/buutonaccept"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/reject"
+
+            android:text="Cancel"
+            android:layout_marginLeft="100dp"
+            android:drawableLeft="@drawable/ic_backspace_black_24dp"
+            android:background="@drawable/buttonreject"/>
+
+    </LinearLayout>
+
+</LinearLayout>

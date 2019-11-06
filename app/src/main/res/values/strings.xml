@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Vet</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="signup">OR<u> Sign UP </u></string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="sor">sor</string>
+
+    <string name="no_location_detected">sor</string>
+
+    <string name="settings">sorttt</string>
+    <string name="permission_rationale">sortttttt</string>
+
+    <string name="permission_denied_explanation">sort</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps">Map</string>
+    <string name="dummy_Text">Appointment Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

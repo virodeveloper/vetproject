@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDarkk">#00574B</color>
+    <color name="colorPrimaryDark">#0B0A2E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="balck">#6c6c6c</color>
+    <color name="white">#ffffff</color>
+    <color name="appcolor">#F4F90D</color>
+    <color name="darkgray">#000000</color>
+    <color name="mycolor">#00000000</color>
+
+</resources>

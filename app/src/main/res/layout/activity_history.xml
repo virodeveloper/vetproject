@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splasback"
+    tools:context=".History">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Problem"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prob"
+                android:textColor="@color/darkgray"
+                android:text="Canine influenza "
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgray"
+                    android:text="Client"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/darkgray"
+                    android:text="Vetname"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/darkgray"
+                android:text="Date:24/8/2017"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/darkgray"
+                android:text="Diagnose Details"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:id="@+id/diag"
+                android:textSize="20dp"
+                android:textColor="@color/darkgray"
+                android:hint="Diagnose Details"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="25dp"
+                android:textColor="@color/darkgray"
+                android:text="Medicines Details"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="20dp"
+                android:id="@+id/medicine"
+                android:textColor="@color/darkgray"
+                android:hint="Medicine Details"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submit"
+                android:background="@drawable/btnback"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Submit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/it1" android:title="Profile" android:icon="@drawable/ic_category"/>
+    <item android:id="@+id/it2" android:title="Change Location" android:icon="@drawable/ic_room_black_24dp"/>
+    <item android:id="@+id/it4" android:title="Appointments" android:icon="@drawable/ic_vet"/>-
+    <item android:id="@+id/it5" android:title="Update Profile" android:icon="@drawable/ic_local_hospital_black_24dp"/>
+
+    <item android:id="@+id/it8" android:title="Scheduled Apointments" android:icon="@drawable/ic_local_hospital_black_24dp"/>
+
+    <item android:id="@+id/it7" android:title="Vet hsitory" android:icon="@drawable/ic_backspace_black_24dp"/>-
+
+    <item android:id="@+id/it6" android:title="Logout" android:icon="@drawable/ic_backspace_black_24dp"/>-
+
+
+
+</menu>

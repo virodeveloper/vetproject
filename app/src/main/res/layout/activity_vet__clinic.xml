@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/clinicback"
+    tools:context=".Vet_Clinic">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="207dp"
+            android:layout_height="192dp"
+            android:gravity="center"
+            android:onClick="selectImg"
+
+            android:src="@drawable/plus" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/clinic_name"
+            android:layout_width="279dp"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+
+
+
+            android:background="@drawable/rectangle"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your Clinic Name"
+            android:textColorHint="@color/darkgray"
+            tools:ignore="MissingConstraints"
+            />
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="279dp"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+
+            android:drawableLeft="@drawable/ic_vet"
+            android:drawablePadding="10dp"
+
+
+            android:background="@drawable/rectangle"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your Clinic Address"
+            android:textColorHint="@color/darkgray"
+            />
+
+        <LinearLayout
+            android:layout_width="279dp"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rectangle"
+
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_room_black_24dp"/>
+            <TextView
+                android:id="@+id/map_address"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+
+
+                android:textColor="@color/balck"
+
+                android:onClick="selectLocation"
+                android:gravity="center"
+                android:hint="Select You Location"
+
+
+
+
+
+
+
+
+
+
+
+                android:textColorHint="@color/darkgray"
+
+                />
+        </LinearLayout>
+
+
+      <!--  <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            android:id="@+id/linearmap">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/frameLayout">
+
+            </FrameLayout>
+        </LinearLayout> -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:id="@+id/btn"
+            android:onClick="uploadImage"
+            android:layout_marginTop="20dp"
+            android:text="Got IT"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

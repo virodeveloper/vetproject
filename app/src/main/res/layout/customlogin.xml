@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/grop1"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:layout_marginTop="20dp"
+
+
+            android:layout_marginRight="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/find"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="475dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/grop"
+            android:orientation="vertical"
+
+            android:gravity="center"
+           >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="LOGIN"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/darkgray"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/rectangle"
+                android:gravity="top"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/darkgray"
+                android:layout_marginTop="40dp"
+                android:hint="Username"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/rectangle3"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:gravity="top"
+                android:backgroundTint="@color/darkgray"
+                android:layout_marginTop="30dp"
+                android:hint="Password"/>
+<!--            <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="10dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/rectangle5"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="65dp"-->
+<!--                android:text="Owner"-->
+<!--                android:onClick="owner"-->
+<!--                android:textColor="@color/balck"-->
+<!--                android:background="@drawable/rectangle5" />-->
+<!--            <Button-->
+<!--                android:id="@+id/rectangle6"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="65dp"-->
+<!--                android:onClick="Vet"-->
+<!--                android:textColor="@color/balck"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:text="Vet"-->
+<!--                android:background="@drawable/rectangle5" />-->
+
+<!--        </LinearLayout>-->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Login"
+                android:id="@+id/rectangle2"
+                android:background="@drawable/btnback"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/textview"
+                android:layout_height="30dp"
+                android:text="Register"
+
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:textSize="22dp"
+                android:layout_marginRight="10dp"
+
+
+
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

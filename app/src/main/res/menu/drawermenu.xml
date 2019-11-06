@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/it1" android:title="Categories" android:icon="@drawable/ic_category"/>
+    <item android:id="@+id/it2" android:title="Change Location" android:icon="@drawable/ic_room_black_24dp"/>
+    <item android:id="@+id/it4" android:title="New Vet" android:icon="@drawable/ic_vet"/>-
+    <item android:id="@+id/it5" android:title="Near Hospital" android:icon="@drawable/ic_local_hospital_black_24dp"/>
+
+    <item android:id="@+id/it3" android:title="All Hospital" android:icon="@drawable/ic_local_hospital_black_24dp"/>
+
+    <item android:id="@+id/it6" android:title="Near Vet" android:icon="@drawable/ic_vet"/>
+    <item android:id="@+id/it10" android:title="All Vet" android:icon="@drawable/ic_vet"/>
+    <item android:id="@+id/it11" android:title="Pet History" android:icon="@drawable/ic_vet"/>
+
+    <item android:id="@+id/it7" android:title="Make An Appointment" android:icon="@drawable/ic_appointment"/>
+    <item android:id="@+id/it8" android:title="Read Blog" android:icon="@drawable/ic_mode_comment_black_24dp"/>
+
+    <item android:id="@+id/it12" android:title="Seasonal Vaccines" android:icon="@drawable/ic_mode_comment_black_24dp"/>
+
+    <item android:id="@+id/it9" android:title="LOG OUT" android:icon="@drawable/ic_backspace_black_24dp"/>
+
+</menu>

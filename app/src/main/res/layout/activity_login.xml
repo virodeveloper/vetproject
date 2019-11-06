@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/vetdog"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-20dp"
+
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/veet"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/rectangle"
+            android:layout_width="279dp"
+            android:layout_height="65dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+
+
+            android:background="@drawable/rectangle"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your Name"
+            android:textColorHint="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+        <EditText
+            android:id="@+id/rectangle3"
+            android:layout_width="280dp"
+            android:layout_height="73dp"
+            android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/rectangle"
+            android:paddingLeft="10dp"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="223dp"
+            android:hint="Password"
+            android:textColorHint="@color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/rectangle5"
+                android:layout_width="100dp"
+                android:layout_height="65dp"
+                android:text="Owner"
+                android:onClick="owner"
+                android:textColor="@color/balck"
+                android:background="@drawable/rectangle5" />
+            <Button
+                android:id="@+id/rectangle6"
+                android:layout_width="100dp"
+                android:layout_height="65dp"
+                android:onClick="Vet"
+                android:textColor="@color/balck"
+                android:layout_marginLeft="20dp"
+                android:text="Vet"
+                android:background="@drawable/rectangle5" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/rectangle2"
+            android:layout_width="221dp"
+            android:layout_height="61dp"
+            android:background="@drawable/rectangle2"
+            android:layout_marginTop="30dp"
+            android:text="Signin"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginTop="35dp"
+
+            android:fontFamily="@font/courgette"
+            android:text="@string/signup"
+            android:textColor="@color/darkgray"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
